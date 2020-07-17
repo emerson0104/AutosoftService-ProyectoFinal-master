@@ -21,6 +21,7 @@ namespace AutosoftService.DAL
         public DbSet<Vehiculos> vehiculos { get; set; }
         public DbSet<Pagos> pagos { get; set; }
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
